@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Hotel Shree Anjani</title>
+   <link rel="website icon" type="png" href="images/hl.png">
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="index.html"><img src="images/Hotel_Logo.jpg" width="160" height="40"
+                                 alt="Logo" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="room.html">Our room</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="gallery.html">Gallery</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="blog.html">Blog</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact Us</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <div class="back_re">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="title">
+                  <h2>Contact Us</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <form action="mail.php" method="post" class="main_form">
+      <!-- <form action="https://script.google.com/macros/s/AKfycbxtsQcJSDMnw6WT3ju7Z3KZ94HoFXY3hsI_RLUG-FRB1rYZQ6nYuVkLh5AziorZVx_K/exec" method="post" class="main_form"> -->
+      <!--  contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contact Us</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" id="name" placeholder="Name" type="type" name="name">
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" id="email" placeholder="Email" type="type" name="email">
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" id="number" placeholder="Phone Number" type="type" name="number">
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                           <select class="form-control" id="service" name="Room">
+                              <option>--Select Which Kind Of Room You Want--</option>
+                              <option>1. Double Bed With A.C</option>
+                              <option>2. Double Bed With Non A.C</option>
+                              <option>3. Singal Bed With Non A.C</option>
+                              <option>4. Others - Enquiry </option>
+                           </select>
+                        </div><br><br>
+
+                        <div class="col-md-12">
+                           <textarea class="textarea" id="message" placeholder="Message" type="type"
+                              name="message"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn" name="submit" class="btnSubmit btn-block"
+                              value="Submit">Send</button>
+                        </div>
+                        <!-- <div class="col-md-12">
+                        <button class="send_btn" name="submit" class="btnSubmit btn-block" onclick="gotowhatsapp()" 
+                         value="Submit">Send</button>
+                   </div> -->
+                     </div>
+                  </form>
+               </div>
+
+   <!-- ----------------------------------------------PAID WP ICON----------------------------------------------------------------       -->
+
+                      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                      <div class="elfsight-app-ca0b34be-384b-4baa-95cf-f89c6e0a4276"></div> 
+
+    <!-- ----------------------------------------------PAID ICON----------------------------------------------------------------       -->
+                  
+    <!-- ----------------------------------------------FREE WP ICON----------------------------------------------------------------       -->          
+               
+              <!-- <a href="https://wa.me/917048239898?text=Hi%20There!"
+               class="float"
+               style="
+                 position: fixed;
+                 width: 50px;
+                 height: 50px;
+                 bottom: 70px;
+                 right: 120px;
+                 color: #fff;
+                 border-radius: 50px;
+                 text-align: center;
+                 cursor: pointer;
+                 box-shadow: 2px 2px 3px #999;
+               "
+               >
+               <img
+                 src="https://trickuweb.com/whatsapp.png"
+                 alt=""
+                 height="60px"
+                 width="60px"
+               />
+               </a>  -->
+
+      <!-- ----------------------------------------------FREE WP ICON----------------------------------------------------------------       -->
+   
+      
+               <div class="col-md-6">
+                  <div class="map_main">
+                     <div class="map-responsive">
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14684.989509810785!2d72.6262435!3d23.0513906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e876ce5e7f307%3A0x89fcc81be4f54f2f!2sHotel%20Shree%20Anjani!5e0!3m2!1sen!2sin!4v1679991669409!5m2!1sen!2sin"
+                           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                           referrerpolicy="no-referrer-when-downgrade" width="600" height="400" frameborder="0"
+                           style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+               </div></div>
+         <!-- Thankyou_message <br>
+        <div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+          <h1>Thanks for contacting us!</h1>
+          <h1>*******</h1>
+        </div>
+      </form>
+      <script data-cfasync="false" type="text/javascript">
+        
+       (function() {
+      function validEmail(email) {
+        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+        return re.test(email);
+      }
+    
+      function validateHuman(honeypot) {
+        if (honeypot) {
+          console.log("Robot Detected!");
+          return true;
+        } else {
+          console.log("Welcome Human!");
+        }
+      }
+      function getFormData(form) {
+        var elements = form.elements;
+    
+        var fields = Object.keys(elements).filter(function(k) {
+              return (elements[k].name !== "honeypot");
+        }).map(function(k) {
+          if(elements[k].name !== undefined) {
+            return elements[k].name;
+          }else if(elements[k].length > 0){
+            return elements[k].item(0).name;
+          }
+        }).filter(function(item, pos, self) {
+          return self.indexOf(item) == pos && item;
+        });
+    
+        var formData = {};
+        fields.forEach(function(name){
+          var element = elements[name];
+          formData[name] = element.value;
+          if (element.length) {
+            var data = [];
+            for (var i = 0; i < element.length; i++) {
+              var item = element.item(i);
+              if (item.checked || item.selected) {
+                data.push(item.value);
+              }
+            }
+            formData[name] = data.join(', ');
+          }
+        });
+    
+        // add form-specific values into the data
+        formData.formDataNameOrder = JSON.stringify(fields);
+        formData.formGoogleSheetName = form.dataset.sheet || "Sheet1"; // default sheet name
+        formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+    
+        console.log(formData);
+        return formData;
+      }
+    
+      function handleFormSubmit(event) {  
+        event.preventDefault();           
+        var form = event.target;
+        var data = getFormData(form);         
+        if( data.email && !validEmail(data.email) ) {   
+          var invalidEmail = form.querySelector(".email-invalid");
+          if (invalidEmail) {
+            invalidEmail.style.display = "block";
+            return false;
+          }
+        } else {
+          disableAllButtons(form);
+          var url = form.action;
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', url);
+          xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+          xhr.onreadystatechange = function() {
+              console.log(xhr.status, xhr.statusText);
+              console.log(xhr.responseText);
+              var formElements = form.querySelector(".form-elements")
+              if (formElements) {
+                formElements.style.display = "none"; // hide form
+              }
+              var thankYouMessage = form.querySelector(".thankyou_message");
+              if (thankYouMessage) {
+                thankYouMessage.style.display = "block";
+              }
+              return;
+          };
+          var encoded = Object.keys(data).map(function(k) {
+              return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+          }).join('&');
+          xhr.send(encoded);
+        }
+      }
+      
+      function loaded() {
+        console.log("Contact form submission handler loaded successfully.");
+        var forms = document.querySelectorAll("form.gform");
+        for (var i = 0; i < forms.length; i++) {
+          forms[i].addEventListener("submit", handleFormSubmit, false);
+        }
+      };
+      document.addEventListener("DOMContentLoaded", loaded, false);
+    
+      function disableAllButtons(form) {
+        var buttons = form.querySelectorAll("button");
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].disabled = true;
+        }
+      }
+    })();
+    
+    
+      </script>
+    </center>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--  footer -->
+            <footer>
+               <div class="footer">
+                  <div class="container">
+                     <div class="row">
+                        <div class=" col-md-4">
+                           <h3>Contact US</h3>
+                           <ul class="conta">
+                              <li><i class="fa fa-map-marker" aria-hidden="true"></i> 2nd Floor, Krishna Gopal Estate,
+                              , Opp. SBI Bank, Nr. Naroda Fruit Market, Asarwa Railway Station Naroda,Ahmedabad</li>
+                              <li><i class="fa fa-mobile" aria-hidden="true"></i> +91 70482-39898</li>
+                              <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">
+                                    hotelshreeanjani@gmail.com</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <h3>Menu Link</h3>
+                           <ul class="link_menu">
+                              <li class="active"><a href="#">Home</a></li>
+                              <li><a href="about.html"> about</a></li>
+                              <li><a href="room.html">Our Room</a></li>
+                              <li><a href="gallery.html">Gallery</a></li>
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-4">
+                           <h3>News letter</h3>
+                           <form class="bottom_form">
+                              <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                              <button class="sub_btn">subscribe</button>
+                           </form>
+                           <ul class="social_icon">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="copyright">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-10 offset-md-1">
+
+                              <p>
+                                 © 2023 All Rights Reserved. Design by <a href=""> Hotel Shree Anjani</a>
+                                 <br><br>
+                                 Distributed by <a href="https://instagram.com/a.k.h.i.l_/" target="_blank">22MCA040</a>
+                              </p>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- end footer -->
+
+            <!-- Javascript files-->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery-3.0.0.min.js"></script>
+            <!-- sidebar -->
+            <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/custom.js"></script>
+</body>
+
+</html>
